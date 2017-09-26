@@ -44,7 +44,8 @@ divElem[1].innerHTML = "Mistakes are always forgivable, if one has the courage t
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var divElem = document.getElementsByClassName("alias");
+divElem[2].innerHTML = "Russell Franklin";
 
 /*7. Peter Griffin
 
