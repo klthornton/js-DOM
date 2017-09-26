@@ -30,13 +30,15 @@ divElem.innerHTML = "Concatenation";
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-
+var divElem = document.getElementsByClassName("profile");
+divElem[0].innerHTML = "Diamonds and Pearls";
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+var divElem = document.getElementsByClassName("profile");
+divElem[1].innerHTML = "Mistakes are always forgivable, if one has the courage to admit them.";
 
 /*6. Samuel L Jackson
 
